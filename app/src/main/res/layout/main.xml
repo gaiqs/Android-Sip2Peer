@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+    <EditText
+        android:id="@+id/addressEditor"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="peer@pcpeer.com:port"></EditText>
+
+    <Button
+        android:id="@+id/sendPing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addressEditor"
+        android:text="Send PING"></Button>
+
+    <Button
+        android:id="@+id/clearButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addressEditor"
+        android:layout_toRightOf="@id/sendPing"
+        android:text="Clear"></Button>
+
+    <Button
+        android:id="@+id/closeApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/addressEditor"
+        android:text="Close App"></Button>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/clearButton"
+        android:layout_marginTop="5pt">
+
+        <TextView
+            android:id="@+id/info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Peer information:"></TextView>
+
+        <TextView
+            android:id="@+id/addressPeer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/info"
+            android:text=""></TextView>
+
+        <TextView
+            android:id="@+id/contAddressPeer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/addressPeer"
+            android:text=""></TextView>
+    </RelativeLayout>
+
+</RelativeLayout>
+
+

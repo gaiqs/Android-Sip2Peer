@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+    <TextView
+        android:id="@+id/bootstrapText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nameEdit"
+        android:text="Bootstrap Peer"></TextView>
+
+    <EditText
+        android:id="@+id/bootstrapEdit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bootstrapText"
+        android:text=""></EditText>
+
+    <TextView
+        android:id="@+id/sbcText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bootstrapEdit"
+        android:text="SBC Server"></TextView>
+
+    <EditText
+        android:id="@+id/sbcEdit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sbcText"
+        android:text=""></EditText>
+
+    <CheckBox
+        android:id="@+id/reachCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sbcEdit"
+        android:text="check peer reachability"></CheckBox>
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/reachCheckBox"
+        android:text="save"></Button>
+
+</RelativeLayout>

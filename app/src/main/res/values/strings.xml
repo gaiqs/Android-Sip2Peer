@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Sip2PeerSample</string>
+
+    <string name="config">Configuration</string>
+    <string name="joinpeer">Join Peer</string>
+    <string name="peerlist">Peer List Manager</string>
+    <string name="sbc">Contact SBC</string>
+</resources>

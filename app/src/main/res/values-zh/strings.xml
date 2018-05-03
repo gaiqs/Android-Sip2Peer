@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sip2PeerSample</string>
+
+    <string name="config">配置</string>
+    <string name="joinpeer">Join Peer</string>
+    <string name="peerlist">Peer List Manager</string>
+    <string name="sbc">Contact SBC</string>
+</resources>
